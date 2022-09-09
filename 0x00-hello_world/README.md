@@ -13,3 +13,5 @@
 6-size.c shows the storage of various data types
 
 100-intel assembles code(intel syntax) of a C code
+
+101-quote.c uses write to output result of C code
