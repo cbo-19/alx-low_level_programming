@@ -11,3 +11,5 @@
 5-printf.c runs another C program
 
 6-size.c shows the storage of various data types
+
+100-intel assembles code(intel syntax) of a C code
