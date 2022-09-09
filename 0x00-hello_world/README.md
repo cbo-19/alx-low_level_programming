@@ -9,3 +9,5 @@
 4-puts.c runs a C program
 
 5-printf.c runs another C program
+
+6-size.c shows the storage of various data types
