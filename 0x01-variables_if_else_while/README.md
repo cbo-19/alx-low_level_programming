@@ -13,3 +13,5 @@ This reademe is for coding in C
 5-print_numbers.c prints numbers
 
 6-printz.c prints numbers with putchar
+
+7-print_tebahphla.c prints alphabets in reverse order
