@@ -17,3 +17,5 @@ This reademe is for coding in C
 7-print_tebahphla.c prints alphabets in reverse order
 
 8-print_base16.c 
+
+9-print_comb.c prints combination of digits
