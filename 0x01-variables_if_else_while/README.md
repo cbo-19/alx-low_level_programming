@@ -11,3 +11,5 @@ This reademe is for coding in C
 4-print_alphabet.c prints alphabets except q and e
 
 5-print_numbers.c prints numbers
+
+6-printz.c prints numbers with putchar
