@@ -26,4 +26,6 @@ void jack_bauer(void);
 void times_table(void);
 /*adds two integers*/
 int add(int n, int m);
+/*print a set of values*/
+void print_to_98(int n);
 #endif
