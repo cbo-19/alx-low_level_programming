@@ -19,3 +19,5 @@ This is a readme for functions
 8-24_hours.c prints time
 
 9-times_table.c prints times table
+
+10-add.c adds two values
