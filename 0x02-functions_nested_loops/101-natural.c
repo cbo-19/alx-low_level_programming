@@ -5,7 +5,7 @@
 /**
  * main - Entry point
  *
- * Return: Always sum
+ * Return: sum
  */
 
 int main(void)
@@ -27,7 +27,7 @@ int main(void)
 			}
 			n++;
 		}
-		printf("%d\n", sum);
 	}
-	return (sum);
+	printf("%d\n", sum);
+	return (0);
 }
