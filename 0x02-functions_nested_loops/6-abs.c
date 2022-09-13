@@ -3,11 +3,11 @@
 #include "main.h"
 
 /**
- * _abs checks the absolut number of an integer
+ * _abs -checks the absolut number of an integer
  *
  * @a: The character to print
  *
- * return: Always a
+ * Return: Always a
  */
 
 /*prints the absolute value of an integer*/
