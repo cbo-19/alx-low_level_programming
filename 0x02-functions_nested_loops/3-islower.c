@@ -1,24 +1,23 @@
 #include<stdio.h>
 #include<ctype.h>
 #include "main.h"
-
+#include "_putchr.c"
 /**
  * int _islower(int c) - checks for lower cases in inputs
  *
- * Return: Always num
+ * Return: Always 0
  */
 
 int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
 	{
-		num = 1;
+		return (1);
 	}
 
 	else
 	{
-		num = 0;
+		return (0);
 	}
 
-	return (num);
 }
