@@ -24,7 +24,7 @@ void jack_bauer(void)
 		}
 		while (b <= num)
 		{
-			whlie (c <= '5')
+			while (c <= '5')
 			{
 				while (d <= '9')
 				{
