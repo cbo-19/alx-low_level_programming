@@ -15,3 +15,5 @@ This is a readme for functions
 6-abs.c prints the absolute number of an integer
 
 7-last_digit.c prints the last digits of integer values
+
+8-24_hours.c prints time
