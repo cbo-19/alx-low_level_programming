@@ -28,4 +28,6 @@ void times_table(void);
 int add(int n, int m);
 /*print a set of values*/
 void print_to_98(int n);
+/*prints multiples of numbers*/
+int main(void);
 #endif
