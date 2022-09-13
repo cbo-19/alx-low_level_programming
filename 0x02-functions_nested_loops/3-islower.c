@@ -4,7 +4,7 @@
 /**
  *_islower - checks for lower cases in inputs
  *
- * c: The character to print
+ * @c: The character to print
  *
  * Return: Always 0
  */
