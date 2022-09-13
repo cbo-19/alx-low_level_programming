@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include "min.h"
+#include "main.h"
 
 /**
  * print_to_98 - prints natural numbers to 98
