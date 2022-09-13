@@ -5,6 +5,7 @@
 /**
  * print_last_digit - prints the last digit of an integer
  *
+ * @num: The character to print
  * Return: Returns the value of last digit
  *
  */
