@@ -8,14 +8,13 @@
 
 void print_alphabet_x10(void)
 {
-	int i;
+	int i = 1;
+	char a = 'a';
 
 	/* using nested while loop to repeat an action*/
 
-	while(i < 10);
+	while(i <= 10)
 	{
-		int a;
-		a ='a';
 
 		while(a <= 'z')
 		{
@@ -23,9 +22,9 @@ void print_alphabet_x10(void)
 
 			a++;
 		}
+		putchar('\n');
 
 		i++;
-
-		putchar('\n');
+		a = 'a';
 	}
 }
