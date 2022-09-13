@@ -22,4 +22,6 @@ int _abs(int a);
 int print_last_digit(int num);
 /* print time*/
 void jack_bauer(void);
+/*prints times table*/
+void times_table(void);
 #endif

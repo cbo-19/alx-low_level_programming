@@ -17,3 +17,5 @@ This is a readme for functions
 7-last_digit.c prints the last digits of integer values
 
 8-24_hours.c prints time
+
+9-times_table.c prints times table
