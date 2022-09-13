@@ -5,6 +5,7 @@
  *_islower - checks for lower cases in inputs
  *
  * @c - is the character to print
+ *
  * Return: Always 0
  */
 
