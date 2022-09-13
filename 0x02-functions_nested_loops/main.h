@@ -1,11 +1,11 @@
-/*prints alphabets*/
 #ifndef MAIN_H
 #define MAN_H
+/*prints alphabets 10 times*/
 void print_alphabet_x10(void);
-#endif
 
 /*prints alphabets times*/
-#ifndef MAN_H
-#define MAN_H
 void print_alphabet(void);
+
+/*checks for lower cases from inputs*/
+int _islower(int c);
 #endif
