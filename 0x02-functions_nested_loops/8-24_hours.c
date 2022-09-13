@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * jack bauer - this program prints every minute
+ * jack_bauer - this program prints every minute
  *
  * Return: minutes
  */
