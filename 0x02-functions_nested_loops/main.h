@@ -10,6 +10,8 @@ void print_alphabet(void);
 int _islower(int c);
 
 /*uses _putchar function to print out results to stdout*/
-
 int _putchar(char c);
+
+/*checks for alphabets*/
+int _isalpha(int c);
 #endif
