@@ -19,12 +19,3 @@ void print_alphabet(void)
 
 	return;
 }
-
-/*calling the prototype to main*/
-
-int main(void)
-{
-	print_alphabet();
-
-	return (0);
-}
