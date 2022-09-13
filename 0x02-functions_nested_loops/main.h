@@ -16,4 +16,6 @@ int _putchar(char c);
 int _isalpha(int c);
 /*prints the sign of a number*/
 int print_sign(int n);
+/*prints the absolute value of an integer*/
+int _abs(int a);
 #endif
