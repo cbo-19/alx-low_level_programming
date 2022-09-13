@@ -13,10 +13,10 @@ void print_alphabet_x10(void)
 
 	/* using nested while loop to repeat an action*/
 
-	while(i <= 10)
+	while (i <= 10)
 	{
 
-		while(a <= 'z')
+		while (a <= 'z')
 		{
 			putchar(a);
 
