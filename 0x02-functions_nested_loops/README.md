@@ -9,3 +9,5 @@ This is a readme for functions
 3-islower.c checks for lower cases
 
 4-isalpha checks alphabets
+
+5-print_sign prints the sign of a number

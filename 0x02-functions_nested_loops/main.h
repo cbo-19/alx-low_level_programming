@@ -14,4 +14,6 @@ int _putchar(char c);
 
 /*checks for alphabets*/
 int _isalpha(int c);
+/*prints the sign of a number*/
+int print_sign(int n);
 #endif
