@@ -1,7 +1,6 @@
 #include<stdio.h>
 #include<ctype.h>
 #include "main.h"
-#include "_putchar.c"
 /**
  * int _islower(int c) - checks for lower cases in inputs
  *

@@ -8,4 +8,8 @@ void print_alphabet(void);
 
 /*checks for lower cases from inputs*/
 int _islower(int c);
+
+/*uses _putchar function to print out results to stdout*/
+
+int _putchar(char c);
 #endif
