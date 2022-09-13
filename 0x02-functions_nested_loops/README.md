@@ -7,3 +7,5 @@ This is a readme for functions
 2-print_alphabet_x10 prints alphabets 10 times
 
 3-islower.c checks for lower cases
+
+4-isalpha checks alphabets
