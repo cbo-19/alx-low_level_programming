@@ -1,21 +1,24 @@
 #include<stdio.h>
 #include<ctype.h>
+#include "main.h"
 
 /**
  * int _islower(int c) - checks for lower cases in inputs
  *
- * Return: Always 0
+ * Return: Always num
  */
 
 int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
 	{
-		return (1);
+		num = 1;
 	}
 
 	else
 	{
-		return (0);
+		num = 0;
 	}
+
+	return (num);
 }
