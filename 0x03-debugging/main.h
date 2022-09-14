@@ -6,4 +6,4 @@
 /*prints if integer is positive or negative*/
 void positive_or_negative(int i);
 
-#endif
+#endif /* MAIN_H */
