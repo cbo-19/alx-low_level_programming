@@ -5,3 +5,6 @@ This is a readme for coding in C
 1-isdigit.c checks for digits
 
 2-mul.c multiplies two integers
+
+3-print_numbers.c prints numbers
+
