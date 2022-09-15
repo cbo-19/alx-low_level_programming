@@ -6,14 +6,12 @@
  * mul - multiplies two integers
  * @a: integer for program
  * @b: integer for program
- * Return: 0
+ * Return: c
  */
 
 int mul(int a, int b)
 {
 	int c = a * b;
 
-	putchar(c + '0');
-
-	return (0);
+	return (c);
 }
