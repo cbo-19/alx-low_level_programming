@@ -11,9 +11,9 @@
 
 int mul(int a, int b)
 {
-	int a = rand ();
-	int b = rand ();
 	int c = a * b;
 
 	putchar(c + '0');
+
+	return (0);
 }
