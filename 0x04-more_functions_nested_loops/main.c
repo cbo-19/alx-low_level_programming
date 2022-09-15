@@ -1,9 +1,8 @@
-#include<stdio.h>
 #include "main.h"
 
-int main(void)
+int main()
 {
-	print_numbers();
+	most_numbers();
 
 	return (0);
 }

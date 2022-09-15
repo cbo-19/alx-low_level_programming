@@ -1,7 +1,6 @@
+#include "main.h"
 #include<stdio.h>
-#include"main.h"
 #include<stdlib.h>
-
 /**
  * more_numbers - print ten times of numbers
  *
