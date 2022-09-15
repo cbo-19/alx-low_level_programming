@@ -2,7 +2,8 @@
 
 int main()
 {
-	more_numbers();
+	print_diagonal(2);
+	print_diagonal(4);
 
 	return (0);
 }
