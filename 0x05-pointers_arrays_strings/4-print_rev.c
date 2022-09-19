@@ -13,6 +13,7 @@ void print_rev(char *s)
 {
 	char n;
 	int i;
+
 	i = 0;
 
 
