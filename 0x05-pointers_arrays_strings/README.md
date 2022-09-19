@@ -5,3 +5,5 @@ This is a readme for arrays and pointers
 1-swap.c swaps integer values
 
 2-strlen - prints the length of string
+
+3-puts- print to stdout
