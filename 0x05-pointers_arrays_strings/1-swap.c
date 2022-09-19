@@ -15,7 +15,7 @@ void swap_int(int *a, int *b)
 	/* use *a and *b and not a and b because these are pointers*/
 
 	int c;
-/* stores the original value of a before the swap so that *b will hold the original value of *a*/
+/* stores the original value of a before the swap */
 	c = *a;
 
 	*a = *b;
