@@ -6,7 +6,7 @@
 /**
  * _puts -  prints an output
  *
- * @s: character value to print
+ * @str: character value to print
  *
  * Return: 0
  */
