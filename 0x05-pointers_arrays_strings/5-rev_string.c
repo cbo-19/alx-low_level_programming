@@ -24,10 +24,10 @@ void rev_string(char *s)
 	i--;
 	while (j <= 1)
 	{
-		char n = s[j];
+		n = s[j];
 
 		s[j] = s[i];
-		s[i] = char n;
+		s[i] = n;
 
 		i--;
 		j++;
