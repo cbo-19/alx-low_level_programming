@@ -7,3 +7,7 @@ This is a readme for arrays and pointers
 2-strlen - prints the length of string
 
 3-puts- print to stdout
+
+4-print_rev prints a sting in reverse
+
+5-rev_stringreverses a string
