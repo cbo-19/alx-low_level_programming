@@ -22,7 +22,7 @@ void puts2(char *str)
 	while (str[i] != '\0')
 	{
 		cin = i + n;
-		if (if c <= c)
+		if (cin <= n)
 		{
 			if (str[cin] != 0)
 			{
