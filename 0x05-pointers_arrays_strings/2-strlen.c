@@ -12,12 +12,16 @@
 
 int _strlen(char *s)
 {
-	char n;
+	int count;
 	int i;
 
-	for (i = 0; (n != '\0'); i++)
+	count = 0;
+
+	for (i = 0; i < strlen(s); i++)
 	{
-		n = s[i];
+		if (s[i] != ' ')
+		{
+			count++;
+		}
 	}
-	return (i - 1);
 }
