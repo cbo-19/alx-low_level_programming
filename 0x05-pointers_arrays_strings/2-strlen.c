@@ -17,9 +17,9 @@ int _strlen(char *s)
 
 	count = 0;
 
-	for (i = 0; i < strlen(s); i++)
+	for (i = 0; i < strlen(s); i++) // i represents each character of the string
 	{
-		if (s[i] != ' ')
+		if (s[i] != ' ') //when the character is not a space
 		{
 			count++;
 		}

@@ -13,17 +13,5 @@
 
 void _puts(char *str)
 {
-	char n;
-	int i;
-
-	for (i = 0; (n != '\0'); i++)
-	{
-		n = str[i];
-
-		if (n != '\0')
-		{
-			putchar(n);
-		}
-	}
-	putchar('\n');
+	puts(str);
 }
