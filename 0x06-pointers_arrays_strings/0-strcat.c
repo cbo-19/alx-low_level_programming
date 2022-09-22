@@ -7,7 +7,7 @@
  * @dest: parameter pointer to char
  * @src: pointer to char
  *
- * return: return value of dest
+ * Return: dest
  */
 
 char *_strcat(char *dest, char *src)
