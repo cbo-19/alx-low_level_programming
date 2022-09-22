@@ -1,27 +1,21 @@
-#include<stdio.h>
 #include "main.h"
-#include<string.h>
-
 /**
- * reverse_array - reverse the content of an array
+ * reverse_array - this function concatnates two strings
  *
- * @a: parameter pointer to int
- * @n: number of byte limit
- *
+ * @a: array to reverse
+ * @n: number of bytes
  */
-
 void reverse_array(int *a, int n)
 {
-	int rev;
-	int i = 0;
-	int j = n - 1;
+	int charAc;
+	int j = 0;
+	int i = n - 1;
 
 	while (j <= i)
 	{
-		rev = a[j];
+		charAc = a[j];
 		a[j] = a[i];
-		a[i] = rev;
-
+		a[i] = charAc;
 		i--;
 		j++;
 	}
