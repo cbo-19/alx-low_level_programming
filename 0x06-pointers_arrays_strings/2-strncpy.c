@@ -6,7 +6,7 @@
  *
  * @dest: pointer to char
  * @src: pointer to char
- * n: byte limit
+ * @n: byte limit
  *
  * Return: dest
  */
