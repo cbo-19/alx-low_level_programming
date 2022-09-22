@@ -1,15 +1,11 @@
-#include<string.h>
 #include "main.h"
-
 /**
- * string_toupper - changes lower cases to upper
+ * string_toupper - this function changes to upper
  *
  * @string: dest string
  *
- * return: string
- *
+ * Return: string
  */
-
 char *string_toupper(char *string)
 {
 	int i;
@@ -23,3 +19,4 @@ char *string_toupper(char *string)
 	}
 	return (string);
 }
+
