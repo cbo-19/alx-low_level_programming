@@ -1,35 +1,31 @@
-#include<string.h>
 #include "main.h"
-
 /**
- * _strncat -  concatenates two string with alimit
+ * _strncat - this function concatnates two strings
  *
- * @dest: pointer to char
- * @src: pointer to char
- * @n: byte limit
+ * @dest: dest string
+ * @src: src string
+ * @n: bytes to concatenate
  *
  * Return: dest
  */
-
 char *_strncat(char *dest, char *src, int n)
 {
-	int i = 0;
-	int j = 0;
+	int l = 0;
+	int len = 0;
+	int i;
 
-	while (dest[i] != '\0')
+	while (dest[l] != '\0')
 	{
-		i++;
-		if (dest[i] == '\0')
+		l++;
+		if (dest[l] == '\0')
 		{
-			int k = 0;
-
-			if (src[i] != '\0' && k < n)
+			for (i = 0; src[len] != '\0' && i < n; i++)
 			{
-				dest[i] = src[j];
-				i++;
-				j++;
+				dest[l] = src[len];
+				l++;
+				len++;
 			}
-			dest[i] = '\0';
+			dest[l] = '\0';
 		}
 	}
 	return (dest);
