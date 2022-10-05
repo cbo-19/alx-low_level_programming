@@ -9,3 +9,5 @@ This is my readme file
 3-strspn gets the length of bytes
 
 4-strpbrk gets the string of a set of bytes
+
+5-strstr.c locates a substring
