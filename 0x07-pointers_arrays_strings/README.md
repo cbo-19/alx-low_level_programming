@@ -11,3 +11,5 @@ This is my readme file
 4-strpbrk gets the string of a set of bytes
 
 5-strstr.c locates a substring
+
+7-print_chessboard.c prints the chessboard
