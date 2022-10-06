@@ -1,25 +1,21 @@
-#include<stdio.h>
-#include "main.h"
-#include<math.h>
-
+#include <stdio.h>
 /**
- * _pow_recursion -  returns a value with a power
+ * _pow_recursion - return x raised to the power of y
  *
- * @x: an integer value
- * @y: the power
- * @result: answer to code
- * Return: 0
+ * @x: number
+ * @y: raised to the power of
+ *
+ * Return: result
  */
 
 int _pow_recursion(int x, int y)
 {
-	int result;
+	if (y == 1)
+		return (x * 1);
+	if (x == 0 || y == 0)
+		return (1);
+	if (y < 0)
+		return (-1);
 
-	result = pow(x, y);
-	return (result);
-
-	if (y == 0)
-	{
-		return(-1);
-	}
+	return (x * _pow_recursion(x, y - 1));
 }
