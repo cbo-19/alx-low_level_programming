@@ -7,15 +7,11 @@
  *
  * @s: character to work with.
  *
- * @i: length of string
- * Returns: i
+ * Returns: 0
  */
 
 int _strlen_recursion(char *s)
 {
-	int i;
-
-	i = strlen(s);
-
-	return (i);
+	strlen(s);
+	return (0);
 }
