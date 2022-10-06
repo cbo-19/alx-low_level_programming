@@ -11,12 +11,5 @@
 
 void _puts_recursion(char *s)
 {
-        int i;
-        
-        for (i = 0; i > 0; i++)
-         {
-            if (s[i] != '\0')
-            puts(s);
-         }
-         return;
+	puts(s);
 }
