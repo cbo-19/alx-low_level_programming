@@ -7,7 +7,8 @@
  *
  * @s: character to work with.
  *
- * Returns: i(length of string)
+ * @i: length of string
+ * Returns: i
  */
 
 int _strlen_recursion(char *s)
