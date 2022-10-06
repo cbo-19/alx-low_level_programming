@@ -6,8 +6,8 @@
  *_strlen_recursion -  returns the length of string
  *
  * @s: character to work with.
- *@i: a character value
- * Returns: i
+ *
+ * Returns: i(length of string)
  */
 
 int _strlen_recursion(char *s)
