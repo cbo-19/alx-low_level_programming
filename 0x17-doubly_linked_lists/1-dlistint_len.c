@@ -1,4 +1,4 @@
-include "lists.h"
+#include "lists.h"
 
 /**
  * dlistint_len - to find the length of the linked list
@@ -7,10 +7,10 @@ include "lists.h"
  */
 size_t dlistint_len(const dlistint_t *h)
 {
-	size_t len;
+	size_t a;
 
-	for (len = 0; h != NULL; len++)
+	for (a = 0; h != NULL; a++)
 		h = h->next;
 
-	return (len);
+	return (a);
 }
