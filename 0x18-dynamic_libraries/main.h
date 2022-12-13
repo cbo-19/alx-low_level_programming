@@ -1,8 +1,7 @@
 #ifndef _MAIN_H_
 #define _MAIN_H_
 
-#include <stdio.h>
-#include <stdlib.h>
+#define EXIT_SUCCESS 0
 
 int _putchar(char c);
 int _islower(int c);
